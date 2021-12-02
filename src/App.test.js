@@ -10,7 +10,7 @@ describe('The text is correct")', () => {
     const inp = document.createElement("input");
     const myDiv = document.createElement("div");
     inp.setAttribute("id", "chat");
-    inp.setAttribute("value", "chat");
+    //inp.setAttribute("value", "chat");
     //global.chat = inp;
     window.domNode = myDiv;
     document.body.appendChild(inp);
